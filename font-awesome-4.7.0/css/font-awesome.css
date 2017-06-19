@@ -310,8 +310,13 @@
 .fa-tags:before {
   content: "\f02c";
 }
-.fa-book:before {
-  content: "\f02d";
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .fa-bookmark:before {
   content: "\f02e";
@@ -2334,4 +2339,13 @@
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
